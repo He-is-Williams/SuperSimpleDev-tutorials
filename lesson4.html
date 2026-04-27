@@ -1,0 +1,35 @@
+<style>
+    .shadow{
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 28px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        align-items: top;
+    }
+    .shadow:hover{
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+    }
+    .shadow:active{
+        padding: 8px 13px;
+        box-shadow: none;
+    }
+
+    .stretch{
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 28px;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: padding 0.15s;
+    }
+    .stretch:hover{
+        padding: 20px 30px;
+    }
+</style>
+
+<button class="shadow">Shadow</button>
+<button class="stretch">Stretch</button>
