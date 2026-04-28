@@ -1,0 +1,14 @@
+p{
+    font-family: montserrat;
+    margin: 0;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+.info{
+    font-size: 27px;
+    text-align: center;
+}
