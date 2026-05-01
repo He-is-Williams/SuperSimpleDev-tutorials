@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: rgb(141, 85, 141);
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+.search-bar{
+    width: 500px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.download-btn{
+    background: none;
+    border: solid 2px white;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
+}
