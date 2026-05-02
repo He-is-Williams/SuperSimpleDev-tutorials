@@ -1,0 +1,55 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post{
+    display: flex;
+}
+.profile-pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.user-name{
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px;
+}
+
+.post-info{
+    margin-left: 15px;
+}
+.user-name span{
+    font-weight: 500;
+    color: grey;
+}
+.user-post{
+    width: 400px;
+    line-height: 20px;
+    font-size: 18px;
+}
+.youtube-link{
+    border: solid 2px grey;
+    border-radius: 22px;
+    display: flex;
+    width: 400px;
+    height: 120px;
+    align-items: center;
+}
+.box{
+    width: 150px;
+    height: 120px;
+    background-color: rgb(189, 189, 189);
+    margin-right: 30px;
+    border-radius: 20px 0 0 20px;
+}
+.link{
+    margin: 4px 0;
+    color: grey;
+    font-size: 18px;
+}
+.link-info{
+    margin: 0;
+    font-size: 18px;
+}
