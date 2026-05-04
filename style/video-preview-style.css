@@ -1,0 +1,28 @@
+.video-preview{
+    width: 320px;
+}
+.thumbnail img{
+    width: 100%;
+
+}
+.thumbnail-info{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.image-thumbnail-info{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.Video-Topic{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.channel-owner, .video-stats{
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(97, 97, 97);
+    margin: 5px 0;
+}
