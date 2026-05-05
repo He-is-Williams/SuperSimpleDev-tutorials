@@ -1,11 +1,15 @@
 .sidebar{
-    margin-top: 56px;
-    width: 72px;
+    background-color: white;
+    margin-top: 50px;
+    width: 73px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2000;
 }
 .sidebar-link{
-    background-color: grey;
     width: 100%;
     height: 75px;
     display: flex;
@@ -14,8 +18,10 @@
     align-items: center;
 }
 .sidebar-link img{
-    width: 40%;
+    width: 35%;
 }
 .sidebar-link div{
-    font-size: 12px;
+    font-size: 10px;
+    font-family: roboto,Arial;
+    text-wrap: nowrap;
 }
