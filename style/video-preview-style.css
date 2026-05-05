@@ -1,9 +1,22 @@
 .video-preview{
-    width: 320px;
+    width: 100%;
+}
+.thumbnail{
+    position: relative;
 }
 .thumbnail img{
     width: 100%;
-
+}
+.timestamp{
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 .thumbnail-info{
     margin-top: 10px;
@@ -25,4 +38,12 @@
     font-size: 13px;
     color: rgb(97, 97, 97);
     margin: 5px 0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;  
+    row-gap: 10px;  
+    margin-top: 90px;
 }
